@@ -7,3 +7,10 @@ Best Practices Theis: https://www.nature.com/articles/s41576-023-00586-w.epdf?sh
 Stats and Theory:
 Shrinkage:
 Lior "tutorial" on RNAseq DE 2017 - https://www.youtube.com/watch?v=ZyRT1z1Sz3g](https://www.youtube.com/watch?v=ucPBBTjH5EE)https://www.youtube.com/watch?v=ucPBBTjH5EE
+
+Some misc. Linux commands I've foudn helpful for working with genomics data on an HPC:
+----
+# memory availbe on curent node
+free -h
+# number of reads in a fastq x4, compare R1 R2 to make sure they're paired and 
+zcat sample1_R1.fastq.gz | wc -l
